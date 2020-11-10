@@ -55,8 +55,7 @@ enemy();
 
   //move sword with mouse in gamestate play
   if(gamestate===PLAY){
-    sword.y=World.mouseY;
-    sword.x=World.mouseX;
+    touches = [];
           }
 //increase score and destroy fruitgroupif fruitgroup is touching sword 
 if(fruitgroup.isTouching(sword)){
